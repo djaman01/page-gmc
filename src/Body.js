@@ -3,7 +3,8 @@ import './App.css'
 export default function Body() {
   return (
     <div>
-      <button>web fundamentals</button>
+      <img src="/CheckpointImg.svg"/>
+      <button>Hey</button>
 
     </div>
   )

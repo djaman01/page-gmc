@@ -7,10 +7,13 @@ import Body from './Body.js'
 function App() {
   return (
    <>
-    
+  <div className='app-header'>
    <Header/>
+  </div>
+  <div className='app-body'>
    <Sidebar/>
    <Body/>
+  </div>
    </>
   );
 }

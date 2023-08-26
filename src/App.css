@@ -74,7 +74,7 @@ div {
   height: 400px;
   text-align: center;
   display: none;
-  
+
 }
 
 .element1:hover .dropdown1 {
@@ -120,6 +120,10 @@ div {
   color: #195CCB;
 }
 
-/* Styling button */
+/* Style layout body */
+.app-body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 
 

@@ -9,7 +9,7 @@ export default function Header() {
       <div className="header">
 
         <div className="logo">
-          <img src="/gomycodeLogo.svg" />
+          <img src="/gomycodeLogo.svg" alt='logo-gomycode'/>
         </div>
 
         <div className="menu">
@@ -53,7 +53,7 @@ export default function Header() {
             <FontAwesomeIcon icon={faChevronDown} className='chevron' />
           </div>
 
-          <h4 className="home">Practice Box</h4>
+          <h4 className="practice">Practice Box</h4>
 
           <div className="element1">
             <h4>LabPhase</h4>
@@ -66,17 +66,12 @@ export default function Header() {
             <FontAwesomeIcon icon={faToggleOff} className="logo-right" />
             <FontAwesomeIcon icon={faBell} className="logo-right" />
             <FontAwesomeIcon icon={faMessage} className="logo-right" />
-            <img src="/Jaafar-Bendahou-photo.jpg" className="photo-profil" />
+            <img src="/Jaafar-Bendahou-photo.jpg" className="photo-profil" alt='profil-piccture' />
             <div className="userName-div">
               <h4 className='username'>Jaafar</h4>
               <FontAwesomeIcon icon={faChevronDown} className='chevron' />
             </div>
           </div>
-
-
-
-
-
 
         </div>
 

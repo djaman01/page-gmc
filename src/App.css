@@ -53,7 +53,7 @@ div {
   margin-left: 8px;
 }
 
-.element2 {
+.userName-div {
   display: flex;
   margin-top: -10px;
   margin-right: 100px;
@@ -67,6 +67,7 @@ div {
   width: 300px;
   height: 400px;
   text-align: center;
+  display: none;
   
 }
 
@@ -75,5 +76,12 @@ div {
   box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.1);
 }
 
+.subtitle-el1 {
+  margin-top: -20px;
+}
+
+.option1 {
+  text-align: left;
+}
 
 

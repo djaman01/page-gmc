@@ -9,6 +9,7 @@ div {
 
 .header {
   display: flex;
+  border-bottom: 2px grey solid;
 }
 
 .element1 {
@@ -35,11 +36,10 @@ div {
 }
 
 .right-part {
-  border: 2px red solid;
-  width: 260px;
+  width: 318px;
   display: flex;
   justify-content: space-between;
-  margin-top: 25px;
+  margin-top: 8px;
   margin-left: 480px;
 }
 
@@ -56,4 +56,24 @@ div {
 .element2 {
   display: flex;
   margin-top: -10px;
+  margin-right: 100px;
 }
+
+.dropdown1 {
+  position: absolute;
+  top: 50px;
+  border: 10px solid white;
+  background-color: red;
+  width: 300px;
+  height: 400px;
+  text-align: center;
+  
+}
+
+.element1:hover .dropdown1 {
+  display: block;
+  box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+

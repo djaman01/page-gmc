@@ -19,12 +19,20 @@ export default function Header() {
           <div className="element1">
             <h4>Learn</h4>
             <FontAwesomeIcon icon={faChevronDown} className='chevron' />
+            <div className='dropdown1'>
+              <h5> My courses </h5>
+              <p>hey you it's</p>
+              <h5> One to One </h5>
+              <h5> Checkpoints </h5>
+              <h5> Calendar </h5>
+              <h5> Performance </h5>
+            </div>
           </div>
 
           <div className="element1">
             <h4>Connect</h4>
             <FontAwesomeIcon icon={faChevronDown} className='chevron' />
-            <div class="dropdown">
+            <div class="dropdown2">
 
             </div>
           </div>

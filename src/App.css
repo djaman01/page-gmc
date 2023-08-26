@@ -126,4 +126,9 @@ div {
   grid-template-columns: 1fr 1fr;
 }
 
+.check-pic {
+  display: flex;
+  align-items: center;
+}
+
 

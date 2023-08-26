@@ -2,10 +2,9 @@ import './App.css'
 
 export default function Body() {
   return (
-    <div>
-      <img src="/CheckpointImg.svg"/>
+    <div className='check-pic'>
+      <img src="/CheckpointImg.svg" alt="check-image"/>
       <button>Hey</button>
-
     </div>
   )
 }

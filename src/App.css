@@ -115,17 +115,26 @@ div {
   margin-left: 10px;
 }
 
-.bolt {
-  margin-right: 10px;
+.subitem {
+  margin: 0 0 15px 10px;
+  color: #195CCB;
+  display: block;
 }
 
-.subitem {
-  margin: 0 0 10px 10px;
-  color: #195CCB;
+.bolt {
+  margin-right: 15px;
 }
 
 .sub-of-sub {
   margin-left: 15px;
+}
+
+.sub-style {
+  margin-top: 18px;
+}
+
+.bolt-sub {
+  margin-right: 20px;
 }
 
 /* Style layout body */

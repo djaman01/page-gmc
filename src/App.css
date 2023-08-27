@@ -3,6 +3,10 @@ div {
   display: inline-block;
 }
 
+.option {
+  display: block;
+}
+
 .logo {
   margin: 25px 35px 0 30px;
 
@@ -71,10 +75,19 @@ div {
   border: 10px solid white;
   background-color: red;
   width: 300px;
-  height: 400px;
+  height: 350px;
   text-align: center;
   display: none;
 
+}
+
+.logo-drop {
+  margin-bottom: 5px;
+  margin-right: 10px;
+}
+
+.drop-title1 {
+  margin-bottom: -25px;
 }
 
 .element1:hover .dropdown1 {
@@ -82,12 +95,11 @@ div {
   box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.1);
 }
 
-.subtitle-el1 {
-  margin-top: -20px;
-}
 
-.option1 {
+.option {
   text-align: left;
+  margin-left: 30px;
+
 }
 
 /* SideBar styling*/

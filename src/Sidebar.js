@@ -6,6 +6,7 @@ import { faBarsProgress, faBolt } from '@fortawesome/free-solid-svg-icons'
 import { useState } from "react"
 
 export default function Sidebar() {
+  var corses = ["web", "css"]
   //On active le useSate: on donne un state, une updateMethod + une valeur par défaut du state qui est false, pour que rien n'apparaisse avant de cliquer
   const [click, toggleClick] = useState(false);
   return (

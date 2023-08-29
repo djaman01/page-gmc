@@ -7,7 +7,7 @@ import Body from './Body.js'
 
 function App() {
   return (
-   <>
+   <div className='container'>
   <div className='app-header'>
    <Header/>
   </div>
@@ -15,7 +15,7 @@ function App() {
    <Sidebarmap/>
    <Body/>
   </div>
-   </>
+   </div>
   );
 }
 

@@ -7,7 +7,7 @@ import { courses } from './courses.js'
 
 export default function Sidebarmap() {
 
-  
+
   return (
     //<div> of all sidebar
     <div className='sidebar'>
@@ -26,10 +26,10 @@ export default function Sidebarmap() {
         <h4 className='curri'>Curriculum</h4>
 
         {/* Displaying all Subitems with map */}
-        {courses.map(e => 
-          <div>
-          <span><FontAwesomeIcon icon={faBolt} className='boltsub' /></span> 
-          <span>{e}</span>
+        {courses.map(e =>
+          <div class="course-group">
+            <span><FontAwesomeIcon icon={faBolt} className='boltsub' /></span>
+            <span className="course-name">{e}</span>
           </div>)}
       </div>
 

@@ -11,7 +11,7 @@
 
 .header {
   display: flex;
-  border-bottom: 2px grey solid;
+  border-bottom: 2px rgb(202, 201, 201) solid;
 }
 
 .element1 {

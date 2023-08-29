@@ -1,7 +1,4 @@
 /* Header styling */
-div {
-  display: inline-block;
-}
 
 .option {
   display: block;
@@ -102,62 +99,10 @@ div {
 
 }
 
-/* SideBar styling*/
-
-.sidebar {
-  width: 260px;
-  height: 100vh;
-  border-right: 2px solid grey;
-}
-
-
-.item1-sidebar {
-  height: 50px;
-  width: 100%;
-  border-bottom: 2px grey solid;
-}
-
-.progress, .progress-bar {
-  display: flex;
-  justify-content: space-between;
-  margin: 3px 5px 5px 10px;
-}
-
-.curri {
-  margin-left: 10px;
-}
-
-.subitem {
-  margin: 0 0 15px 10px;
-  color: #195CCB;
-  display: block;
-}
-
-.bolt {
-  margin-right: 15px;
-}
-
-.sub-of-sub {
-  margin-left: 15px;
-}
-
-.sub-style {
-  margin-top: 18px;
-}
-
-.bolt-sub {
-  margin-right: 20px;
-}
-
 /* Style layout body */
 .app-body {
+  border: 2px red solid;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-
-.check-pic {
-  display: flex;
-  align-items: center;
-}
-
 

@@ -1,5 +1,4 @@
 
-
 export var courses = [
   "Web fundamentals", "Git & GitHub", "HTML", "CSS",
   "CSS Layout", "Intro Algorithms", "Data Structures", "Famous Sorting",

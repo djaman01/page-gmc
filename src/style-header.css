@@ -1,0 +1,99 @@
+
+.option {
+  display: block;
+}
+
+.logo {
+  margin: 25px 35px 0 30px;
+
+}
+
+.header {
+  display: flex;
+  border-bottom: 2px grey solid;
+}
+
+.element1 {
+  display: flex;
+}
+
+.chevron {
+  margin: 26px 15px 0 5px;
+}
+
+.menu {
+  display: flex;
+}
+
+.home {
+  margin-right: 15px;
+}
+
+.practice {
+  width: 100px;
+  margin-right: 15px;
+}
+
+.photo-profil {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-top: 5px;
+}
+
+.right-part {
+  width: 318px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+  margin-left: 480px;
+}
+
+.logo-right {
+  margin-top: 15px;
+  height: 20px;
+  margin-right: 15px;
+}
+
+.username {
+  margin-left: 8px;
+}
+
+.userName-div {
+  display: flex;
+  margin-top: -10px;
+  margin-right: 100px;
+}
+
+.dropdown1 {
+  position: absolute;
+  top: 50px;
+  border: 10px solid white;
+  background-color: red;
+  width: 300px;
+  height: 350px;
+  text-align: center;
+  display: none;
+
+}
+
+.logo-drop {
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+.drop-title1 {
+  margin-bottom: -25px;
+}
+
+.element1:hover .dropdown1 {
+  display: block;
+  box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.option {
+  text-align: left;
+  margin-left: 30px;
+
+}

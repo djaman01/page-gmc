@@ -24,12 +24,49 @@ export default function Header() {
             <FontAwesomeIcon icon={faChevronDown} className='chevron' />
 
             <div className='dropdown1'>
+
               <div className="option"> {/* pour bouger les 2 para */}
+              
+              <div className="subgroup">
                 <FontAwesomeIcon icon={faBook} className="logo-drop" />
                 <div className="suboption">
                   <h5 className="drop-title1"> My courses </h5>  {/* Pour diminuer l'espace entre les 2 para */}
                   <h6>Access all of your courses</h6>
                 </div>
+              </div>
+
+              <div className="subgroup">
+                <FontAwesomeIcon icon={faBook} className="logo-drop" />
+                <div className="suboption">
+                  <h5 className="drop-title1"> My courses </h5>  {/* Pour diminuer l'espace entre les 2 para */}
+                  <h6>Access all of your courses</h6>
+                </div>  
+              </div> 
+
+              <div className="subgroup">
+                <FontAwesomeIcon icon={faBook} className="logo-drop" />
+                <div className="suboption">
+                  <h5 className="drop-title1"> My courses </h5>  {/* Pour diminuer l'espace entre les 2 para */}
+                  <h6>Access all of your courses</h6>
+                </div>  
+              </div>     
+
+               <div className="subgroup">
+                <FontAwesomeIcon icon={faBook} className="logo-drop" />
+                <div className="suboption">
+                  <h5 className="drop-title1"> My courses </h5>  {/* Pour diminuer l'espace entre les 2 para */}
+                  <h6>Access all of your courses</h6>
+                </div>  
+              </div>     
+
+               <div className="subgroup">
+                <FontAwesomeIcon icon={faBook} className="logo-drop" />
+                <div className="suboption">
+                  <h5 className="drop-title1"> My courses </h5>  {/* Pour diminuer l'espace entre les 2 para */}
+                  <h6>Access all of your courses</h6>
+                </div>  
+              </div>    
+
               </div>
               
             </div>
